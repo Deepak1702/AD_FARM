@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deepak.ad_farm.Register"
+    android:background="@drawable/back1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etbd"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="#0511f4"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textAlignment="center"
+        android:ems="12"
+        android:inputType="phone"
+        android:hint="Enter Your Phone Number"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/btnDone"
+
+        android:textSize="30dp"
+        android:textColor="#9005f4"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:hint="already registered ?"
+        android:layout_below="@+id/btnDone"
+        android:textSize="20dp"
+        android:textColor="#101010"
+        android:layout_marginTop="230dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:textSize="30dp"
+        android:textColor="#9005f4"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+       />
+</RelativeLayout>

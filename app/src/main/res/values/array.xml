@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_platform_options">
+        <item>@string/platform_unknown</item>
+        <item>@string/platform_youtube</item>
+        <item>@string/platform_facebook</item>
+        <item>@string/platform_instagram</item>
+    </string-array>
+</resources>

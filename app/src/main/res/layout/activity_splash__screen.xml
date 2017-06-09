@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deepak.ad_farm.Splash_Screen">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/IV"
+        android:src="@drawable/deal"
+        android:layout_below="@+id/tv1"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tv2"
+
+        android:textIsSelectable="false"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:textColor="#0c5106"
+        android:layout_below="@+id/IV"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
